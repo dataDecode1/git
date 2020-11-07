@@ -1,0 +1,36 @@
+krishnas-mbp:demo krishna$ pwd
+/Users/krishna/projects/demo
+krishnas-mbp:demo krishna$ ls -al
+total 8
+drwxr-xr-x   4 krishna  staff  128 Mar  6 12:46 .
+drwxr-xr-x   3 krishna  staff   96 Mar  6 12:41 ..
+drwxr-xr-x  10 krishna  staff  320 Mar  6 12:46 .git
+-rw-r--r--@  1 krishna  staff    2 Mar  6 12:31 Readme.md
+krishnas-mbp:demo krishna$ rm -rf .git
+krishnas-mbp:demo krishna$ ls -al
+total 8
+drwxr-xr-x  3 krishna  staff  96 Mar  6 12:47 .
+drwxr-xr-x  3 krishna  staff  96 Mar  6 12:41 ..
+-rw-r--r--@ 1 krishna  staff   2 Mar  6 12:31 Readme.md
+krishnas-mbp:demo krishna$ git status
+fatal: not a git repository (or any of the parent directories): .git
+krishnas-mbp:demo krishna$ git init .
+Initialized empty Git repository in /Users/krishna/projects/demo/.git/
+krishnas-mbp:demo krishna$ ls -al
+total 8
+drwxr-xr-x   4 krishna  staff  128 Mar  6 12:47 .
+drwxr-xr-x   3 krishna  staff   96 Mar  6 12:41 ..
+drwxr-xr-x  10 krishna  staff  320 Mar  6 12:47 .git
+-rw-r--r--@  1 krishna  staff    2 Mar  6 12:31 Readme.md
+krishnas-mbp:demo krishna$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	Readme.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+krishnas-mbp:demo krishna$ 
