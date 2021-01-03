@@ -1,5 +1,7 @@
 # Git Guide
 
+move repos from GHE 2 GH - https://gist.github.com/stevemar/06ace005f82691435d0b
+
 All git commands at one place - https://twitter.com/data_decode/status/1275126824159379457?s=09
 
 https://guides.github.com/
