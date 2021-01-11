@@ -1,5 +1,7 @@
 # Git Guide
 
+create a new branch than default - https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-and-deleting-branches-within-your-repository
+
 move repos from GHE 2 GH - https://gist.github.com/stevemar/06ace005f82691435d0b
 
 All git commands at one place - https://twitter.com/data_decode/status/1275126824159379457?s=09
