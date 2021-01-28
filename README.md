@@ -1,18 +1,33 @@
 # Git Guide
 
-git add >100mb files - https://www.youtube.com/watch?v=W4RCeVSs1Fg
+# git add >100mb files 
+- brew install git-lfs
+- git init . 
+- git remote add origin https://github.com/datacode384/EDEKA.git
+- cd loc-of-bog-file
+- git lfs install  
+- git lfs track *.bigfiles
+- git add .gitattributes 
+- git add *.bigfiles
+- git commit -m "dip workflow"
+- git push origin master 
+- git username & password
 
-tagging git repos - https://stackoverflow.com/a/18223354/5757129
+Ref: https://www.youtube.com/watch?v=W4RCeVSs1Fg
 
-create a new branch than default - https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-and-deleting-branches-within-your-repository
+# tagging git repos 
+- https://stackoverflow.com/a/18223354/5757129
 
-move repos from GHE 2 GH - https://gist.github.com/stevemar/06ace005f82691435d0b
+# create a new branch than default 
+- https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-and-deleting-branches-within-your-repository
 
-All git commands at one place - https://twitter.com/data_decode/status/1275126824159379457?s=09
+# move repos from GHE 2 GH
+- https://gist.github.com/stevemar/06ace005f82691435d0b
 
-https://guides.github.com/
-
-https://developer.github.com/
+# All git commands at one place 
+- https://twitter.com/data_decode/status/1275126824159379457?s=09
+- https://guides.github.com/
+- https://developer.github.com/
 
 - Generate ssh keys - https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#platform-windows
 
