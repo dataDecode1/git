@@ -6,7 +6,7 @@
 - git remote add origin https://github.com/datacode384/EDEKA.git
 - cd loc-of-bog-file
 - git lfs install  
-- git lfs track *.bigfiles
+- git lfs track *.bigfiles (or) git lfs track "myfolder/**" 
 - git add .gitattributes 
 - git add *.bigfiles
 - git commit -m "dip workflow"
